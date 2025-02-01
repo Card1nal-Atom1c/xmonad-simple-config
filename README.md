@@ -31,7 +31,7 @@ Config { font = "HackNerdFont 12"
         --, template = "%StdinReader% }{ %date% "
         }
 ```
-* puedes modificar los colores de el wrapy bordes de la xmobar desde el xmonad.sh
+* puedes modificar los colores de el wrap y bordes de la xmobar desde el xmonad.sh
 ```haskell//
 import System.IO
 import System.Exit

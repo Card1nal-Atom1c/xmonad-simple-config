@@ -9,7 +9,8 @@ Kitty(yo uso la config de s4vitar)...
 Basicamente copia el repo y dale permisos de ejecucion a los archivos con chmod +x para que se puedan ejecutar los scripts de bash en especial a (xmonad.hs, xmobarrc, picom.conf y conky.conf) si no puede dar problemas
 ![image](https://github.com/user-attachments/assets/e243351a-5bbd-4c6e-8f54-79716fd92e2d)
 ![imagen_2025-02-01_115721599](https://github.com/user-attachments/assets/085926e8-bd28-4f7a-b807-8fbe03c41e43)
-'''haskell///
+vas a tener que modificar el xmobarrc cambiando "tu Usuario" por tu usuario de login(obiamente)
+```haskell//
 Config { font = "HackNerdFont 12"
         , borderColor = "black"
         , border = BottomB
@@ -28,4 +29,4 @@ Config { font = "HackNerdFont 12"
         , template = "[%StdinReader%]}{[%SetTarget%][%HTB%][%IP%][%date%] "
         --, template = "%StdinReader% }{ %date% "
         }
- '''
+```

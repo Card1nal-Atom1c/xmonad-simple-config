@@ -1,0 +1,18 @@
+Config { font = "HackNerdFont 12"
+        , borderColor = "black"
+        , border = BottomB
+        , alpha= 200
+        , bgColor = "black"
+        , fgColor = "white"
+        , position = Static { xpos = 0 , ypos = 0, width = 1920, height = 25 }
+        , commands = [    Run Date "%H:%M:%S" "date" 10
+                        , Run StdinReader
+                        , Run Com "/home/card1nal/.xmonad/IP.sh" [] "IP" 10
+                        , Run Com "/home/card1nal/.xmonad/HTB.sh" [] "HTB" 10
+                        , Run Com "/home/card1nal/.xmonad/SetTarget.sh" [] "SetTarget" 10
+                        ]
+        , sepChar = "%"
+        , alignSep = "}{"
+        , template = "[%StdinReader%]}{[%SetTarget%][%HTB%][%IP%][%date%] "
+        --, template = "%StdinReader% }{ %date% "
+        }

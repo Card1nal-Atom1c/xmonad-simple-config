@@ -33,7 +33,7 @@ Config { font = "HackNerdFont 12"
 ```
 * puedes modificar los colores de el wrapy bordes de la xmobar desde el xmonad.sh
 ```haskell//
-        import System.IO
+import System.IO
 import System.Exit
 
 import XMonad

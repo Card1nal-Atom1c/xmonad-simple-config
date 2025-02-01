@@ -1,15 +1,16 @@
 Xmobar-Xmonad-SimpleConfig
 --------------------------------------
 Obiamente Tienes que tener
-Xmonad y Xmobar,
-Picom,
-Nitrogen,
-Conky,
-Kitty(yo uso la config de s4vitar)... y la fuente HackNerdFont
-Basicamente copia el repo y dale permisos de ejecucion a los archivos con chmod +x para que se puedan ejecutar los scripts de bash en especial a (xmonad.hs, xmobarrc, picom.conf y conky.conf) si no puede dar problemas
+- Xmonad y Xmobar,
+- Picom,
+- Nitrogen,
+- Conky,
+- Kitty(yo uso la config de s4vitar)...
+- la fuente HackNerdFont(o otra fuenta a eleccion lo unico que tendras que modificar la fuente en conky.conf y en el xmobarrc)
+* Basicamente copia el repo y dale permisos de ejecucion a los archivos con chmod +x para que se puedan ejecutar los scripts de bash en especial a (xmonad.hs, xmobarrc, picom.conf y conky.conf) si no puede dar problemas
 ![image](https://github.com/user-attachments/assets/e243351a-5bbd-4c6e-8f54-79716fd92e2d)
 ![imagen_2025-02-01_115721599](https://github.com/user-attachments/assets/085926e8-bd28-4f7a-b807-8fbe03c41e43)
-vas a tener que modificar el xmobarrc cambiando "tu Usuario" por tu usuario de login(obiamente)
+* vas a tener que modificar el xmobarrc cambiando "tu Usuario" por tu usuario de login(obiamente)
 ```haskell//
 Config { font = "HackNerdFont 12"
         , borderColor = "black"
